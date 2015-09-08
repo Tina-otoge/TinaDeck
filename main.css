@@ -1,0 +1,20 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("tweetdeck.twitter.com") {
+  /* TinaDeck by @Shookaite
+  /* Some shadows and animations added to TD
+  /* Fits better with Snowflake ( https://github.com/fractalhexagon/snowflake/ )
+  /* Don't forget to fuck comments with a cactus like planetary do */
+
+  .avatar {border-radius:10%;} /* rounded avatar corners */
+  .js-account-list {margin-left:5px} /* added margin to account list because of shadows */
+  .compose-content {margin-right:10px;} /* makes the drawer a bit larger for readability */
+  .prf-card-inner .prf-img img {border-radius:50%;} /* circled avatar into profile cards */
+  .med-embeditem {background-image:url(http://i.imgur.com/mIdyxaB.gif)!important} /* shipgirl as loading image animation */
+  /* Shadows */
+  div.is-open .compose {-webkit-box-shadow: 4px 0 2px -2px #888;box-shadow: 4px 0 2px -2px #888;transition:1s;}
+
+
+  .avatar {-webkit-box-shadow: 0 0 3px 2px #888!important;box-shadow: 0 0 3px 2px #888!important;transition:1s;}
+  .prf-card-inner .prf-img:hover img {box-shadow:-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;}
+}
