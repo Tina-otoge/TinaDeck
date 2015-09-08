@@ -6,15 +6,21 @@
   /* Fits better with Snowflake ( https://github.com/fractalhexagon/snowflake/ )
   /* Don't forget to fuck comments with a cactus like planetary do */
 
+  /* TinaDeck features */
   .avatar {border-radius:10%;} /* rounded avatar corners */
   .js-account-list {margin-left:5px} /* added margin to account list because of shadows */
   .compose-content {margin-right:10px;} /* makes the drawer a bit larger for readability */
   .prf-card-inner .prf-img img {border-radius:50%;} /* circled avatar into profile cards */
+  .prf-card-inner .prf-img:hover img {box-shadow:-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;} /* avatar is glowing blue when hovering it in profile card */
   .med-embeditem {background-image:url(http://i.imgur.com/mIdyxaB.gif)!important} /* shipgirl as loading image animation */
+  body {background-image: url(http://i.imgur.com/W8yaHrO.jpg);background-size: cover;background-position: center;} /* custom page loading pic */
+  /* if you don't like the sunglasses, use this link instead between the parenthesis > http://i.imgur.com/tJ0TgyH.jpg */
+  .js-dismiss:hover + .s-profile .prf-card-inner {opacity: 0!important;color:rgba(0,0,0,0)!important;} /* profile card content disappear when hovering close button, to allow the user seeing the header */
+  
   /* Shadows */
-  div.is-open .compose {-webkit-box-shadow: 4px 0 2px -2px #888;box-shadow: 4px 0 2px -2px #888;transition:1s;}
-
-
-  .avatar {-webkit-box-shadow: 0 0 3px 2px #888!important;box-shadow: 0 0 3px 2px #888!important;transition:1s;}
-  .prf-card-inner .prf-img:hover img {box-shadow:-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;}
+  div.is-open .compose {-webkit-box-shadow: 4px 0 2px -2px #888;box-shadow: 4px 0 2px -2px #888;} /* tweet composer reflects a little shadow on TD columns */
+  .avatar {-webkit-box-shadow: 0 0 3px 2px #888!important;box-shadow: 0 0 3px 2px #888!important;} /* avatar's shadow */
+  
+  /* Global transition delay */
+  .avatar, div.is-open .compose, .prf-carn-inner .prf-img img, .prf-card-inner {transition:1s;}
 }
