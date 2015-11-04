@@ -1,0 +1,25 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("tweetdeck.twitter.com") {
+.hearty .is-favorite .icon-favorite-toggle, .hearty .icon-favorite-color {
+  /* change like to red, even if it should already be, it may not be the case if you have another userstyle that makes likes look like favs */
+  color: #fab41e;
+  /* if you prefer red stars, use this instead */
+  /* color: #be1931 */ }
+
+.hearty .icon-favorite:before {
+  /* change hearts to stars */
+  content: "\f007" }
+
+.hearty .sprite, .hearty .fullname-badged:before {
+  /* let's go back to 2013 */
+  background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png") }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+  .hearty .sprite {
+    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png") }
+
+  .hearty .fullname-badged:before {
+    background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png") } }
+}
