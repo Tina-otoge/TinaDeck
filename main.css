@@ -34,13 +34,13 @@
   .med-embeditem {
     /* shipgirl as loading image animation */
     /* DISABLED BECAUSE IT NEEDS REWORK
-    background-image:url(http://i.imgur.com/mIdyxaB.gif)!important } */
+    background-image:url(http://i.imgur.com/mIdyxaB.gif)!important */ }
     
   body {
     /* custom page loading pic */
     background-image: url(http://i.imgur.com/W8yaHrO.jpg);
     /* uncomment the next line if you don't like the sunglasses like Eleo */
-    /* background-image: url(http://i.imgur.com/tJ0TgyH.jpg) */
+    /* background-image: url(http://i.imgur.com/tJ0TgyH.jpg); */
     background-size: cover;
     background-position: center }
     
