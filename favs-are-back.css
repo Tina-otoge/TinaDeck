@@ -13,7 +13,9 @@
 
 .hearty .sprite, .hearty .fullname-badged:before {
   /* let's go back to 2013 */
-  background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png") }
+  background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png");
+  /* enable this for red stars */
+  /* background-image: url("http://u.thebitstick.xyz/f/CBE998.png") */ }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
