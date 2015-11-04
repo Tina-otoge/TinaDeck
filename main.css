@@ -7,20 +7,64 @@
   /* Don't forget to fuck comments with a cactus like planetary do */
 
   /* TinaDeck features */
-  .avatar {border-radius:10%;} /* rounded avatar corners */
-  .js-account-list {margin-left:5px} /* added margin to account list because of shadows */
-  .compose-content {margin-right:10px;} /* makes the drawer a bit larger for readability */
-  .prf-card-inner .prf-img img {border-radius:50%;} /* circled avatar into profile cards */
-  .prf-card-inner .prf-img:hover img {-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;} /* avatar is glowing blue when hovering it in profile card */
-  /* DISABLED BECAUSE IT NEEDS REWORK .med-embeditem {background-image:url(http://i.imgur.com/mIdyxaB.gif)!important} /* shipgirl as loading image animation */
-  body {background-image: url(http://i.imgur.com/W8yaHrO.jpg);background-size: cover;background-position: center;} /* custom page loading pic */
-  /* if you don't like the sunglasses, use this link instead between the parenthesis > http://i.imgur.com/tJ0TgyH.jpg */
-  .js-dismiss:hover + .s-profile .prf-card-inner {opacity: 0!important;color:rgba(0,0,0,0)!important;} /* profile card content disappear when hovering close button, to allow the user seeing the header */
+  
+  
+  .avatar {
+    /* rounded avatar corners */
+    border-radius:10% }
+    
+  .js-account-list {
+    /* added margin to account list because of shadows */
+    margin-left:5px }
+    
+  .compose-content {
+    /* makes the drawer a bit larger for readability */
+    margin-right:10px }
+    
+  .prf-card-inner .prf-img img,
+  .prf-card-inner .prf-img {
+    /* circled avatar into profile cards */
+    border-radius: 50% }
+    
+  .prf-card-inner .prf-img:hover img {
+    /* avatar is glowing blue when hovering it in profile card */
+    -webkit-box-shadow: 0 0 8px 6px #55acee!important;
+    box-shadow: 0 0 8px 6px #55acee!important}
+
+  .med-embeditem {
+    /* shipgirl as loading image animation */
+    /* DISABLED BECAUSE IT NEEDS REWORK
+    background-image:url(http://i.imgur.com/mIdyxaB.gif)!important } */
+    
+  body {
+    /* custom page loading pic */
+    background-image: url(http://i.imgur.com/W8yaHrO.jpg);
+    /* uncomment the next line if you don't like the sunglasses like Eleo */
+    /* background-image: url(http://i.imgur.com/tJ0TgyH.jpg) */
+    background-size: cover;
+    background-position: center }
+    
+  .js-dismiss:hover + .s-profile .prf-card-inner {
+    /* profile card content disappear when hovering close button, to allow the user seeing the header */
+    opacity: 0!important;
+    color:rgba(0,0,0,0)!important }
   
   /* Shadows */
-  div.is-open .compose {-webkit-box-shadow: 4px 0 2px -2px #888;box-shadow: 4px 0 2px -2px #888;} /* tweet composer reflects a little shadow on TD columns */
-  .avatar {-webkit-box-shadow: 0 0 3px 2px #888!important;box-shadow: 0 0 3px 2px #888!important;} /* avatar's shadow */
+  
+  div.is-open .compose {
+    /* tweet composer reflects a little shadow on TD columns */
+    -webkit-box-shadow: 4px 0 2px -2px #888;
+    box-shadow: 4px 0 2px -2px #888 }
+    
+  .avatar {
+    /* avatar's shadow */
+    -webkit-box-shadow: 0 0 3px 2px #888!important;
+    box-shadow: 0 0 3px 2px #888!important }
   
   /* Global transition delay */
-  .avatar, div.is-open .compose, .prf-carn-inner .prf-img img, .prf-card-inner {transition:1s;}
+  
+  .avatar, div.is-open .compose,
+  .prf-carn-inner .prf-img img,
+  .prf-card-inner {
+    transition:1s }
 }
