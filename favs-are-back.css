@@ -1,5 +1,3 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document domain("tweetdeck.twitter.com") {
 .hearty .is-favorite .icon-favorite-toggle, .hearty .icon-favorite-color {
   /* change like to red, even if it should already be, it may not be the case if you have another userstyle that makes likes look like favs */
@@ -24,4 +22,13 @@
 
   .hearty .fullname-badged:before {
     background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@2x.cca0541f2d.png") } }
+li[data-type="favoriters"] > a > span.stat-word {
+  /* removes "LIKES" in tweet stats */
+  display:none;
+}
+
+li[data-type="favoriters"] > a:after {
+  /* set it to "FAVORITES" instead */
+  font-size: 0.7142857143rem !important;
+  content: "Favorites" }
 }
