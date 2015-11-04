@@ -11,7 +11,7 @@
   .js-account-list {margin-left:5px} /* added margin to account list because of shadows */
   .compose-content {margin-right:10px;} /* makes the drawer a bit larger for readability */
   .prf-card-inner .prf-img img {border-radius:50%;} /* circled avatar into profile cards */
-  .prf-card-inner .prf-img:hover img {box-shadow:-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;} /* avatar is glowing blue when hovering it in profile card */
+  .prf-card-inner .prf-img:hover img {-webkit-box-shadow: 0 0 8px 6px #55acee!important;box-shadow: 0 0 8px 6px #55acee!important;} /* avatar is glowing blue when hovering it in profile card */
   /* DISABLED BECAUSE IT NEEDS REWORK .med-embeditem {background-image:url(http://i.imgur.com/mIdyxaB.gif)!important} /* shipgirl as loading image animation */
   body {background-image: url(http://i.imgur.com/W8yaHrO.jpg);background-size: cover;background-position: center;} /* custom page loading pic */
   /* if you don't like the sunglasses, use this link instead between the parenthesis > http://i.imgur.com/tJ0TgyH.jpg */
