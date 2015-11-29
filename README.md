@@ -37,7 +37,7 @@ Considering you're surely using a mainstream browser, **you first need Stylish**
 
 
 ## <i id="files"></i> What are the different files ?
-For now the only file in *Tina Deck* is [main.css](https://github.com/Shookaite/TinaDeck/blob/master/main.css). I'm sure you guessed it, it's the main *Tina Deck* file. It contains all the main features and is pretty light so it shouldn't slow down your browsing experience. Maybe in the future, if it's needed, when adding some very specific features, I'll release them as complementary files, that way you'll be able to choose what features you want or not.
+For now the only files in *Tina Deck* are [main.css](https://github.com/Shookaite/TinaDeck/blob/master/main.css) and [favs-are-back.css](https://github.com/Shookaite/TinaDeck/blob/master/favs-are-back.css) I'm sure you guessed it, main.css is the main *Tina Deck* file. It contains all the main features and is pretty light so it shouldn't slow down your browsing experience and favs-are-back is a little script to put stars back in TweetDeck. Maybe in the future, if it's needed, when adding some very specific features, I'll release them as complementary files, that way you'll be able to choose what features you want or not.
 
 ## <i id="misc"></i> Miscellaneous
 If you want to disable or modify some of the *TinaDeck*'s features, feel free to modify the files.  
