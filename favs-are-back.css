@@ -1,9 +1,7 @@
 @-moz-document domain("tweetdeck.twitter.com") {
 .hearty .is-favorite .icon-favorite-toggle, .hearty .icon-favorite-color {
-  /* change like to red, even if it should already be, it may not be the case if you have another userstyle that makes likes look like favs */
-  color: #fab41e;
-  /* if you prefer red stars, use this instead */
-  /* color: #be1931 */ }
+  /* change likes to yellow */
+  color: #fab41e }
 
 .hearty .icon-favorite:before {
   /* change hearts to stars */
@@ -12,8 +10,6 @@
 .hearty .sprite, .hearty .fullname-badged:before {
   /* let's go back to 2013 */
   background-image: url("https://ton.twimg.com/tweetdeck-web/web/assets/global/backgrounds/td_sprite_sheet_2013_@1x.e0708304e2.png");
-  /* enable this for red stars */
-  /* background-image: url("https://userstyles.org/styles/120374/tinadeck-favs-are-back") */ }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
@@ -31,4 +27,14 @@ li[data-type="favoriters"] > a:after {
   /* set it to "FAVORITES" instead */
   font-size: 0.7142857143rem !important;
   content: "Favorites" }
+  
+/* If you prefer red stars, uncomment this : */
+
+/*
+.hearty .is-favorite .icon-favorite-toggle, .hearty .icon-favorite-color {
+  color: #be1931 }
+
+.hearty .sprite, .hearty .fullname-badged:before {
+  background-image: url("https://i.imgur.com/CriwFbE.png") }
 }
+*/
