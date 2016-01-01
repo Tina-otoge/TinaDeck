@@ -33,7 +33,7 @@
 
   .med-embeditem {
     /* shipgirl as loading image animation */
-    /* DISABLED BECAUSE IT NEEDS REWORK
+    /* DISABLED
     background-image:url(http://i.imgur.com/mIdyxaB.gif)!important */ }
     
   body {
@@ -48,6 +48,20 @@
     /* profile card content disappear when hovering close button, to allow the user seeing the header */
     opacity: 0!important;
     color:rgba(0,0,0,0)!important }
+  .sprite-close {
+    background-image: none!important;
+  }
+  .sprite-close:after {
+    content: 'Inspect header';
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    text-shadow: 0 0 4px black;
+    transition: .5s }
+
+  .js-dismiss:hover .sprite-close:after {
+    text-shadow: 0 0 4px #55acee }
   
   /* Shadows */
   
